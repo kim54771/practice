@@ -1,0 +1,3 @@
+#include <iostream.
+int main(){
+    stu::cout <<"Hello world!\n;
