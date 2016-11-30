@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main()
+{
+    for (int row = 1;  row < 100; row++) {
+            for (int letter = 0; letter < row; letter++)
+            std::cout <<row;
+    
+            std::cout <<'\n'; 
+    } 
+}
