@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cmath>
+ 
+  using namespace std;
+  
+int main()
+{
+    int n;
+    int c;
+    int e;
+    double sum;
+    
+  cout << " Quadratic num ";
+  cin >> n;
+  c= -1;
+  sum = n*c;
+  cout << "the first b is "<< sum<< endl;
+  
+  // the first b in the quadratic formula 
+  
+  e = n*n;
+  cout << " the second b is "<< e << endl;
+  
+  
+  return 0;
+  
+  
+  
+}
