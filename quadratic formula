@@ -8,6 +8,9 @@ int main()
     int n;
     int c;
     int e;
+    int a;
+    int h;
+    double sum2;
     double sum;
     
   cout << " Quadratic num ";
@@ -20,6 +23,12 @@ int main()
   
   e = n*n;
   cout << " the second b is "<< e << endl;
+  
+  cout << "Put a and c";
+  cin >> a;
+  cin >> h;
+  sum2 = a * 4 * h;
+  cout << "the other answer is "<< sum2<< endl;
   
   
   return 0;
